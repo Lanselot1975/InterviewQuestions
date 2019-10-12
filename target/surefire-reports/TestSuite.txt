@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.479 sec <<< FAILURE! - in TestSuite
+cretePCId(testcases.UITesting)  Time elapsed: 9.118 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pages.action.LoblawsCompleteYourProfilePageAction.verifyPageCompleteYourProfile(LoblawsCompleteYourProfilePageAction.java:9)
+	at testcases.UITesting.cretePCId(UITesting.java:43)
+

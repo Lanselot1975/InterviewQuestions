@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/igorgrinberg/Downloads/int_questions">
+        <classes>
+            <class name="testcases.APITesting">
+                <methods>
+                    <include name="task1"/>
+                    <include name="task2"/>
+                </methods>
+            </class>
+            <class name="testcases.UITesting">
+                <methods>
+                    <include name="cretePCId"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
